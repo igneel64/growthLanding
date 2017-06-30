@@ -100,59 +100,77 @@
   
 </section>
 
-<section class="container-fluid txt-white" id="agenda">
+<section class="outer-container" id="agenda">
   
-  <div class="row container__heading text-center ">
-    <div class="col-sm-12">
-      <h3 class=""> Agenda </h3>
+  <div class="container">
+    
+    <div class="row container__heading text-center ">
+      <div class="col-sm-12">
+        <h3 class="txt-white"> Agenda </h3>
+      </div>
     </div>
-  </div>
 
-  <div class="row c-agenda">
-    <div class="">
-      <ul class="c-agenda__events">
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">10:00 - 10:30</span>
-          <span class="c-agenda__text">Arrival, coffee, and greetings</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">10:30 - 11:00</span>
-          <span class="c-agenda__text">Overview</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">11:00 - 11:00</span>
-          <span class="c-agenda__text">Collecting data in the wild with analytics.js &amp; surviving the Google Analy</
-        tics interface</li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">13:00 - 13:30</span>
-          <span class="c-agenda__text">Challenge</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">13:30 - 14:00</span>
-          <span class="c-agenda__time--mob">14:00 - 15:00</span>
-          <span class="c-agenda__text">Lunch break</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__text">Report like a Boss with Google Spreadsheets</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">15:00 - 16:30</span>
-          <span class="c-agenda__text">Automate all the things with Google Apps Script</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">16:30 - 18:00</span>
-          <span class="c-agenda__text">The developer's way to visualization with Data Studio and Slides</span>
-        </li>
-        <li class="c-agenda__event">
-          <span class="c-agenda__time--mob">18:00++</span>
-          <span class="c-agenda__text">Beer &amp; Fun with Google APIs</span>
-        </li>
-      </ul>
+    <div class="row c-agenda txt-white">
+      <div class="col-md-2 col-md-offset-1 hidden-sm hidden-xs">
+        <ul class="c-agenda__times">
+          <li class="c-agenda__time"> <span>10:00 - 10:30</span> </li>
+          <li class="c-agenda__time"> <span>10:30 - 11:00</span> </li>
+          <li class="c-agenda__time"> <span>11:00 - 13:00</span> </li>
+          <li class="c-agenda__time"> <span>13:00 - 13:30</span> </li>
+          <li class="c-agenda__time"> <span>13:30 - 14:00</span> </li>
+          <li class="c-agenda__time"> <span>14:00 - 15:00</span> </li>
+          <li class="c-agenda__time"> <span>15:00 - 16:30</span> </li>
+          <li class="c-agenda__time"> <span>16:30 - 18:00</span> </li>
+          <li class="c-agenda__time"> <span>18:00++</span> </li>
+        </ul>
+      </div>
+
+      <div class="col-md-8">
+        <ul class="c-agenda__events">
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">10:00 - 10:30</span>
+            <span class="c-agenda__text">Arrival, coffee, and greetings</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">10:30 - 11:00</span>
+            <span class="c-agenda__text">Overview</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">11:00 - 13:00</span>
+            <span class="c-agenda__text">Collecting data in the wild with analytics.js &amp; surviving the Google Analytics interface</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">13:00 - 13:30</span>
+            <span class="c-agenda__text">Challenge</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">13:30 - 14:00</span>
+            <span class="c-agenda__text">Lunch break</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">14:00 - 15:00</span>
+            <span class="c-agenda__text">Report like a Boss with Google Spreadsheets</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">15:00 - 16:30</span>
+            <span class="c-agenda__text">Automate all the things with Google Apps Script</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">16:30 - 18:00</span>
+            <span class="c-agenda__text">The developer's way to visualization with Data Studio and Slides</span>
+          </li>
+          <li class="c-agenda__event">
+            <span class="c-agenda__time--mob hidden-md">18:00++</span>
+            <span class="c-agenda__text">Beer &amp; Fun with Google APIs</span>
+          </li>
+        </ul>
+      </div>
     </div>
+
   </div>
 </section>
 
-<section id="countdown">
+<section id="countdown" class="container">
 <div class="row timerhead">
   <div class="col-sm-3 col-md-3 col-lg-3 text-center">
   DAYS
