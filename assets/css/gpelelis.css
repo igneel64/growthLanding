@@ -1,0 +1,67 @@
+/* == SPACINGS == */
+.container__heading{
+	padding-top: 2em;
+	padding-bottom: 2.5em;
+}
+
+
+
+
+
+/* == TYPOGRAPHY == */
+.txt-white{
+	color: white;
+}
+
+
+
+
+
+/* == FULL PAGE BACKGROUND IMAGE SUPPORT == */
+.support-full-height{
+	height: 100%;
+}
+
+.full-page-container{
+	height: 100%;
+
+}
+
+#agenda{
+	background-image: url('../images/agenda.jpg');
+	
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+
+
+
+
+/* == AGENDA SECTION  == */
+.c-agenda{
+	background: rgba(0, 0, 0, 0.45);
+	padding: 1em;
+	margin-bottom: 2em;
+}
+
+ul.c-agenda__events{
+	padding: 0;
+}
+
+li.c-agenda__event{
+	list-style: none;
+}
+
+.c-agenda__time--mob{
+	font-weight: bold;
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 0.25em;
+}
