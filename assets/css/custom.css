@@ -58,7 +58,8 @@ h3{
   color:white;
 /*  background-attachment: fixed;
 */    width:100%;
-  height:500px;
+  height:620px;
+  min-height: 100vh;
   padding-top: 10px; 
 }
 
