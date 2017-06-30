@@ -38,8 +38,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: 6em;
 }
 
 
@@ -55,17 +55,19 @@
 }
 
 .c-agenda__times{
-	background: rgba(255, 0, 0, 0.45);
+	background: rgba(126, 35, 50, 0.53);
 }
 
 ul.c-agenda__events{
 	padding: 0;
+	padding-top: 1em;
 }
 
 li.c-agenda__event{
 	list-style: none;
 	position: relative;
-	padding-bottom: 1em;
+	padding: 1em;
+	padding-top: 0;
 }
 
 
@@ -79,10 +81,15 @@ li.c-agenda__event{
   position: absolute; /* 1 */
   opacity: 0.2;
   bottom: 0;
+  left: 0;
 }
 
-.c-agenda__time--mob:last-of-type::after{
+.c-agenda__event:last-of-type .c-agenda__time--mob::after{
   display: none;
+}
+
+.c-agenda__event:first-of-type .c-agenda__time--mob{
+	padding-top: 0;
 }
 
 .c-agenda__time--mob{
@@ -92,3 +99,12 @@ li.c-agenda__event{
 	padding-bottom: 0.5em;
 }
 
+
+li.c-agenda__time{
+	list-style: none;
+	padding-bottom: 1em;
+}
+
+li.c-agenda__time:last-of-type{
+	padding-bottom: 0;
+}
