@@ -27,6 +27,7 @@
 * {
 	font-family: 'Comfortaa';
 	font-weight: 300;
+  overflow-x: hidden;
 }
 
 h3{
@@ -39,9 +40,39 @@ h3{
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size:cover;
+  color:white;
 /*  background-attachment: fixed;
 */    width:100%;
   height:500px;
+  padding-top: 10px; 
+}
+
+.navigation{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.navigation a{
+  color:white;
+}
+
+.navigation a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.navigation li{
+  padding: 0px 10px;
+}
+
+.heading{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.heading span{
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .register--btn {
@@ -79,10 +110,10 @@ h3{
 	margin:0 auto;
 }
 
-.list-inline li{
+#prefooter .list-inline.left li{
 	color: white;
-    padding-right: 30px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 35px;
 }
 
 .right{
@@ -139,4 +170,13 @@ h3{
 
 .timerhead{
   color: #812232;
+}
+
+#about{
+  padding: 4em 6em;
+}
+
+#about .container{
+  max-width: 940px;
+  padding-bottom: 2em;
 }
