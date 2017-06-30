@@ -108,3 +108,24 @@ li.c-agenda__time{
 li.c-agenda__time:last-of-type{
 	padding-bottom: 0;
 }
+
+
+.countdown__num{
+	font-size: 2.5em;
+}
+
+.countdown__title{
+	font-size: 0.8em;
+}
+
+
+
+@media screen and (min-width: 520px){
+	.countdown__num{
+		font-size: 4em;
+	}
+
+	.countdown__title{
+		font-size: 1.5em;
+	}
+}
